@@ -15,6 +15,7 @@ Run script :
 Create cron task in terminal:
 crontab -e
 Copy without quotes: "30 * * * * osascript $HOME/Pictures/Wallpapers/wallpaper.scpt" #Run script every 30 min.
+
 <a href=https://www.computerhope.com/unix/ucrontab.htm>Crontab Help</a>
 
 Maybe better solution to use GUI Cron app:
