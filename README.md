@@ -12,5 +12,9 @@ mkdir -pv '$HOME/Pictures/Wallpapers/Morning', '$HOME/Pictures/Wallpapers/Aftern
 Run script : 
 "osascript ~/$HOME/Pictures/Wallpapers/wallpaper.scpt"
 
-Create cron job or use gui cron app
+Create cron task in terminal:
+crontab -e
+Copy without quotes: "30 * * * * osascript $HOME/Pictures/Wallpapers/wallpaper.scpt" #Run script every 30 min.
+
+Maybe better solution to use GUI Cron app:
 <a href=https://www.macupdate.com/app/mac/7486/cronnix/> Cronnix </a>
