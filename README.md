@@ -9,4 +9,8 @@ Create folders
 bash: 
 mkdir -pv '$HOME/Pictures/Wallpapers/Morning', '$HOME/Pictures/Wallpapers/Afternoon', '$HOME/Pictures/Wallpapers/Evening'
 
-Create cron job for script.
+Run script : 
+"osascript ~/$HOME/Pictures/Wallpapers/wallpaper.scpt"
+
+Create cron job or use gui cron app
+<a href=https://www.macupdate.com/app/mac/7486/cronnix/> Cronnix </a>
